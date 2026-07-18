@@ -1,0 +1,34 @@
+# Build outputs (CMake / Visual Studio generate these — never commit)
+build/
+out/
+cmake-build-*/
+vcpkg_installed/
+
+# Local/machine-specific CMake overrides (keep CMakePresets.json; ignore user presets)
+CMakeUserPresets.json
+
+# Visual Studio / IDE junk
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+
+# Compiled objects / binaries that might appear outside build/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.dll
+*.lib
+*.exp
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local notes / guides (keep off GitHub)
+*.md
